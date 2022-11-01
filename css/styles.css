@@ -1,3 +1,4 @@
+/*
 *{
     margin: 0;
     padding: 0;
@@ -15,8 +16,9 @@
     --colorOscuro:#493014;
     --colorAmarillo: #FFB259;
 }
-
+*/
 /*INDEX*/
+/*
 html{
     font-size: 62.5%;
 }
@@ -49,11 +51,11 @@ p{
     font-family: var(--fuentePrincipal);
     font-weight: 300;
 }
-
+*/
 /*.logo{
 	margin: 2rem 0 0 2rem;
 }*/
-
+/*
 .contenedor{
     max-width: 140rem;
     margin: 0 auto;
@@ -61,7 +63,8 @@ p{
 .contenedor__icon {
 	display: flex;
 }
-
+*/
+/*
 .header {
 	display: flex; 
 	justify-content: space-between;
@@ -96,7 +99,8 @@ p{
     display: flex;
     padding-right: 1rem;
 }
-
+*/
+/*
 .banner {
 	background-image: url(../img/pomadas-doshome.jpg);
 	height: 60em;
@@ -131,8 +135,6 @@ p{
     font-size: 1.8em;
     font-kerning: none;
     font-weight: 300;
-    /*position: absolute;
-    bottom: 150px;*/
     color: var(--colorBase);
     margin-left: 4rem;
     margin-top: 1rem;
@@ -141,12 +143,10 @@ p{
 }
 
 .banner__a{
-    /*position: absolute;
-    bottom: 100px;*/
     margin-left: 4rem;
-
 }
 
+/*
 .boton {
 	background-color: var(--colorAmarillo);
 	text-decoration: none;
@@ -156,12 +156,11 @@ p{
 	font-size: 1.3em;
 	padding: 0.5rem 1rem;
 	border-radius: 0.3rem;
-	/*margin-top: 2rem;*/
 	border: none;
 }
-
+*/
 /*FOOTER*/
-
+/*
 .footer {
 	max-width: 140rem;
 	margin: auto;
@@ -218,10 +217,10 @@ p{
 .footer__p {
 	font-weight: 300;
 }
-
+*/
 
 /*NOSOTROS*/
-
+/*
 .nosotros {
 	margin-top: 4rem;
 }
@@ -239,9 +238,9 @@ p{
 .equipo{
     margin-top: 5rem;
 }
-
+*/
 /*TRANSITION*/
-
+/*
 .transition__h{
     width: 100%;
     text-align: center;
@@ -279,9 +278,9 @@ p{
 .transition__h:hover::before{
     width: 100%;
 }
-
+*/
 /*FIN TRANSITION*/
-
+/*
 .equipo__htxt{
     padding: 1rem;
 }
@@ -311,10 +310,10 @@ p{
 	width: 25rem;
     margin-bottom: 2rem;
 }
-
+*/
 
 /*PRODUCTOS*/
-
+/*
 .productos__h1 {
 	margin-top: 4rem;
 }
@@ -367,23 +366,22 @@ p{
 	margin-bottom: 1.5rem;
 	text-align: center;
 }
-
+*/
 
 /*SECCION SALUD*/
+/*
 .salud{
     width: auto;
     margin: 4rem;   
 }
 .salud__p{
-    margin: 10rem 8rem;
-    
-    
+    margin: 10rem 8rem; 
 }
+*/
 
 /*FORMULARIO*/
-
+/*
 .formulario{
-    /*background-color: #e5dbc7;*/
     font-size: 1.1em;
     font-weight: 300;
     color: var(--colorLogo);
@@ -458,11 +456,13 @@ input[type="checkbox"]{
     width: 100%;
     cursor: pointer;
 }
+*/
 
 /*CLASES UTILITARIAS*/
 
 
 /*animacion H1*/
+/*
 .scale-up-hor-center {
 	-webkit-animation: scale-up-hor-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	animation: scale-up-hor-center 2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -472,6 +472,7 @@ input[type="checkbox"]{
  * animation scale-up-hor-center
  * ----------------------------------------
  */
+ /*
 @-webkit-keyframes scale-up-hor-center {
     0% {
     -webkit-transform: scaleX(0.4);
@@ -492,12 +493,12 @@ input[type="checkbox"]{
     transform: scaleX(1);
     }
 }
-
+*/
 /* MEDIA QUERY */
 
 /*INDEX*/
 
-
+/*
 @media screen and (max-width: 768px){
     
     .logo {
@@ -542,9 +543,9 @@ input[type="checkbox"]{
         flex-direction: column;
         text-transform: uppercase;
     }
-
+*/
 /*NOSOTROS 768*/
-
+/*
     .nosotros__tv {
 	flex-direction: column;
 	align-items: center;
@@ -562,8 +563,8 @@ input[type="checkbox"]{
         grid-template-columns: 1fr;
     }
 
-}
-
+}*/
+/*
 @media screen and (max-width: 320px) {
     .header {
         flex-direction: column;
@@ -675,7 +676,7 @@ input[type="checkbox"]{
     }
 
     /*NOSOTROS*/
-
+/*
     .nosotros__tv {
         flex-direction: column;
         align-items: center;
@@ -710,4 +711,4 @@ input[type="checkbox"]{
         margin-bottom: 0;
     }
 
-}
+}*/

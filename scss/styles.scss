@@ -1,0 +1,23 @@
+/* MISC */
+
+@import './misc/variables';
+@import './misc/animaciones';
+
+/* GENERALES */
+
+@import './general/generales';
+@import './general/header';
+@import './general/footer';
+
+/* MQ */
+
+@import './mq/mediaq';
+
+/* PAGES */
+
+@import './pages/index';
+@import './pages/nosotros';
+@import './pages/productos';
+@import './pages/salud';
+@import './pages/contacto';
+

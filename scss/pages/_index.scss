@@ -1,0 +1,49 @@
+.banner {
+	background-image: url(../img/pomadas-doshome.jpg);
+	height: 60em;
+	position: relative;
+	background-size: cover;
+
+    .banner__contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgba(58, 98, 73, 0.70);
+        height: 60rem;
+
+        .banner__txt {
+            max-width: 140rem;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+
+            .banner__h2{
+                font-family: $fuente-secuendaria;
+                text-transform: uppercase;
+                font-size: 2.5em;
+                color: $color-base;
+                margin-left: 4rem;
+            }
+            
+            .banner__p{
+                font-size: 1.8em;
+                font-kerning: none;
+                font-weight: 300;
+                /*position: absolute;
+                bottom: 150px;*/
+                color: $color-base;
+                margin-left: 4rem;
+                margin-top: 1rem;
+                margin-bottom: 3rem;
+            }
+            .banner__a{
+                margin-left: 4rem;
+            
+            }
+            
+        }
+    }
+
+}
+
+

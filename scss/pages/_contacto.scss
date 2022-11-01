@@ -1,0 +1,75 @@
+.formulario{
+    font-size: 1.1em;
+    font-weight: 300;
+    color: $color-logo;
+    margin-bottom: 0.5rem;
+    width: min(60rem, 100rem);
+    border-radius: 1.5rem;
+    margin: 0 auto;
+    padding: 2rem;
+
+    .formulario fieldset{
+        border: none;
+    }
+    
+    .formulario legend{
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    
+    .formulario__campo {
+        font-size: 1.5em;
+        margin-bottom: 1rem;
+
+        .formulario__input{
+            font-family: $fuente-secuendaria;
+            background-color: #e5dbc7;
+            color: $color-secundario;
+            width: 100%;
+            border-radius: 0.3rem;
+            border: none;
+            padding: 1rem;
+        }
+    }
+    
+    .formulario__check{
+        margin-bottom: 2rem;
+
+        .formulario__label{
+            font-size: 1.5em;
+            font-weight: 400;
+            padding-right: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .formulario__item{
+            font-size: 1.5em;
+            padding: 1rem;
+        }
+    }
+    
+    input[type="checkbox"]{
+        width: 1.15em;
+        height: 1.15em;
+        border: 0.15em solid $color-logo;
+        border-radius: 0.15em;
+    }
+    
+    .formulario__txt {
+        background-color: #e5dbc7;
+        color: $color-secundario;
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: 0.25rem;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+    .formulario__enviar .boton{
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+
