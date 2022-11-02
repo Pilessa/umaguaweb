@@ -8,3 +8,27 @@
     $color-menta: #B8E2CA;
     $color-oscuro:#493014;
     $color-amarillo: #FFB259;
+
+
+    @mixin text-center {
+        font-size: medium;
+        text-align: center;
+        margin: 1rem;
+        text-transform: uppercase;
+    }
+
+    .title-section{
+        @include text-center;
+    }
+
+    @mixin galery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
+        margin-top: 5rem;  
+    }
+
+    .galeria{
+        @include galery;
+    }

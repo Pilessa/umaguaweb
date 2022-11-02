@@ -8,12 +8,12 @@
 	width: 100%;
 	height: 30rem;
 
-    .footer__logo{
+    &__logo{
         margin-top: 2rem;
     }
 
     .footer__grup{
-        display: flex;
+        display:flex;
 
         .footer__nav {
             padding-right: 2rem;
@@ -29,7 +29,6 @@
     
     .form {
         display: flex;
-        height: 4rem;
         align-items: center;
         gap: 2rem;
         margin: 2rem 0 2rem 0;

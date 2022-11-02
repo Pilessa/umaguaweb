@@ -41,8 +41,28 @@ p{
     max-width: 140rem;
     margin: 0 auto;
 }
-.contenedor__icon {
-	display: flex;
+
+.pcontenedor__imgv {
+    width: 40rem;
+    height: 50rem;
+    background-color: #fbf8f2;
+    border-radius: 3rem;
+    position: relative;
+}
+
+.pcontenedor__imgh {
+        width: 419px;
+        height: 290px;
+        background-color: #fbf8f2;
+        border-radius: 3rem;
+        position: relative;
+}
+
+@media (max-width: 320px){
+    .pcontenedor__imgh {
+            width: 252px;
+            height: 175px;
+        }
 }
 
 .boton {
@@ -57,3 +77,24 @@ p{
 	/*margin-top: 2rem;*/
 	border: none;
 }
+
+.formulario fieldset{
+    border: none;
+}
+
+.formulario legend{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.formulario__input{
+    font-family: $fuente-secuendaria;
+    background-color: #e5dbc7;
+    color: $color-secundario;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+    padding: 1rem;
+}
+

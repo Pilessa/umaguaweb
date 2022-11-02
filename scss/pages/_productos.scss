@@ -2,53 +2,55 @@
 	margin-top: 4rem;
 }
 
-.productos__h1txt{
-    margin: 1rem;
-    font-size: medium;
-}
 
-.productos {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	gap: 4rem;
-	margin: 6rem auto;
-	width: 120rem;
-
-    .producto {
+.producto {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 50rem;
 
+    .pcontenedor__img {
+        width: 40rem;
+        height: 50rem;
+        background-color: #fbf8f2;
+        border-radius: 3rem;
+        position: relative;
+    }
+
+    @media (max-width: 768px){
         .pcontenedor__img {
-            width: 40rem;
-            height: 50rem;
-            background-color: #fbf8f2;
-            border-radius: 3rem;
-            position: relative;
-        }
-        .producto__img {
-            position: absolute;
-            top: 10%;
-            left: 11%;
-            margin: -25px 0 0 -25px;
-            width: 90%;
-            height: 90%;
-            border-radius: 2rem;
-        }
-        .producto__info {
-            margin-bottom: 2rem;
-            margin-top: 2rem;
-            display: flex;
-            flex-direction: column;
-            width: 70%;
-        }
-        .producto__nombre {
-            font-weight: 700;
-            margin-bottom: 1.5rem;
-            text-align: center;
+            width: 25rem;
+            height: 35rem;
         }
     }
-    
-    
+
+    .producto__img {
+        position: absolute;
+        top: 10%;
+        left: 11%;
+        margin: -25px 0 0 -25px;
+        width: 90%;
+        height: 90%;
+        border-radius: 2rem;
+    }
+    @media (max-width: 768px){
+        .producto__img{
+                margin: 0;
+                left: 5%;
+                top: 5%;
+        }
+    }
+    .producto__info {
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    .producto__nombre {
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
 }

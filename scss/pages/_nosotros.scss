@@ -1,59 +1,74 @@
+
 .nosotros {
 	margin-top: 4rem;
+	/*display: grid;
+	grid-template-columns: repeat(12, 1fr);*/
+    display: flex;
+    flex-direction: column;
+	gap: 3rem;
 
-    .nosotros__tv{
+    .nosotros__tv {
         display: flex;
-        margin-bottom: 12rem;
-    
-        .nosotros__txt {
-            display: flex;
-            flex-direction: column;
-            margin: 20rem 5rem 0 auto;
-            align-items: center;
-    
-            .nosotros__p{
-                margin-top: 2rem;
-            }
-        }
+        flex-direction: column;
+        grid-column: 1 / 13;
+        align-items: center;
+    }
+    .nosotros__vd {
+        grid-column: 1 / 13;
+        display: flex;
+        justify-content: center;
+    }
+
+    .title-grid {
+        grid-column: 1 / 13;
+        grid-row: 3 / 4;
+    }
+
+    /*.galery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
     }
     
-    .equipo{
+    /*.equipo{
         margin-top: 5rem;
 
-        .equipo__htxt{
-            padding: 1rem;
-        }
         .nosotros__eq{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 4rem;
             margin-top: 10rem;
             margin-bottom: 12rem;
+        }*/
 
-            .nosotros__intg {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
+    .nosotros__intg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-                .nosotros__img {
-                    height: 25rem;
-                    border-radius: 60rem;
-                    overflow: hidden;
-                    width: 25rem;
-                    margin-bottom: 2rem;
-                }
-                .nosotros__info {
-                    width: 50rem;
-                    text-justify: none;
-                }
-            }   
+        .nosotros__img {
+            height: 25rem;
+            border-radius: 60rem;
+            overflow: hidden;
+            width: 25rem;
+            margin-bottom: 2rem;
         }
+        .nosotros__info {
+            width: 50rem;
+            text-justify: none;
+        }
+        @media (max-width: 320px){
+            .nosotros__info{
+                width: 18rem;
+                text-align: center;
+            }
+        
+        }
+    }   
 
-    }
-    
-    
-    
+}
 
-    
-    
+.nosotros__p {
+    margin: 2rem;
 }

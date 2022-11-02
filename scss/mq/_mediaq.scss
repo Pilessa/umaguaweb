@@ -2,32 +2,24 @@
 
 /*INDEX*/
 
+/* MQ 768 */
 
-@media screen and (max-width: 768px){
-    
-    .logo {
-        width: 20rem;
+@media screen and(max-width: 768px){
+
+    .header {
+        flex-direction: column;
     }
-    .logo__home{
-        scale: 60%;
-    }
+
     .nav__grupo {
         font-size: 1.4em;
-        margin-top: 2.2rem;
+        margin-top: 1rem;
     }
     .contenedor__icon {
-        position: absolute;
-        z-index: 3;
-        align-items: baseline;
-        margin-right: 5rem;
-        top: 10px;
-        display: flex;
-        margin-top: 2rem;
-        left: 65rem;
+        left: 64rem !important;
     }
     .icon{
-        width: 20px;
-        height: 20px;
+        width: 25px;
+        height: 25px;
     }
     .banner__txt {
         margin: 0 6rem 0 2rem;
@@ -48,26 +40,36 @@
         text-transform: uppercase;
     }
 
-/*NOSOTROS 768*/
+    /*NOSOTROS*/
 
-    .nosotros__tv {
-	flex-direction: column;
-	align-items: center;
-	margin-bottom: 8rem;
-    }
-    .nosotros__txt {
-        margin: 2rem 8rem;
-        line-height: 2.2rem;
-    }
-    .video{
+    .nosotros__p{
         width: 600px;
-        height: auto;
-    }
-    .nosotros__eq{
-        grid-template-columns: 1fr;
     }
 
+
+    .video{
+        width: 630px;
+        height: 360px;
+    }
+
+    /* PRODUCTOS */
+
+    .productos{
+        background-color: tomato;
+    }
+
+    /* .producto__img {
+        position: absolute;
+        top: 10%;
+        left: 11%;
+        margin: -25px 0 0 -25px;
+        width: 60%;
+        height: 60%;
+        /*border-radius: 2rem;
+    }*/
 }
+
+/* --- MQ 320 ---*/
 
 @media screen and (max-width: 320px) {
     .header {
@@ -86,8 +88,9 @@
         padding: .5rem;
     }
 
-    .contenedor__icon{
-        left: 22rem;
+    .contenedor__icon {
+        left: 21rem !important;
+        top: 1rem !important;
     }
 
     .nav__grupo {
@@ -126,7 +129,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr, 1fr;
         background-color: var(--colorBasedos);
-        margin: 0;
+        margin-top: 7rem;
     }
 
     .footer__logo {
@@ -148,25 +151,12 @@
         margin-top: 2rem;
     }
 
-    .footer__p {
-        display: grid;
-        grid-column: 1 / 3;
-        font-size: 1.1em;
-        margin-bottom: 1rem;
-        text-align: center;
-    }
-
     .form {
         flex-direction: column;
         grid-column: 1 / 3;
         height: auto;
         background-color: var(--colorBasedos);
         padding: 2rem;
-    }
-
-    .formulario__input {
-        border: solid 1px;
-        background-color: unset;
     }
 
     .footer__form {
@@ -179,22 +169,36 @@
         line-height: 2rem;
     }
 
+    .footer__p {
+        display: grid;
+        grid-column: 1 / 3;
+        font-size: 1.1em;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
     /*NOSOTROS*/
 
-    .nosotros__tv {
+.nosotros__tv {
         flex-direction: column;
         align-items: center;
         margin: 0;
+
+        .nosotros__txt{
+            margin: 0%;
+        }
+        .nosotros__p {
+            text-align: center;
+            line-height: 2.3rem;
+            margin: 2rem 4rem;
+            width: auto;
+        }
     }
+
     .nosotros__txt{
-        margin: 0%;
+        background-color: tomato;
     }
-    .nosotros__p {
-        text-align: center;
-        line-height: 2.3rem;
-        margin: 2rem 4rem;
-        width: auto;
-    }
+    
     .video {
         width: 250px;
         height: auto;
