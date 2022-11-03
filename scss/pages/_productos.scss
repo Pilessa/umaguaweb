@@ -54,3 +54,37 @@
         text-align: center;
     }
 }
+
+/*POMADAS*/
+
+.galeria-producto{
+    width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    gap: 5rem;
+    margin-top: 5rem; 
+    align-items: center; 
+    
+
+    .compra__img{
+        border-radius: 2rem;
+        border: 1rem solid $color-amarillo;
+        width: 80%;
+        height: 80%;
+    }
+
+    .producto__compra{
+        height: 100%;
+        }
+
+        .compra__info{
+            margin-bottom: 2rem;
+        } 
+}
+
+@media (max-width: 320px){
+    .galeria-producto{
+        flex-direction: column;
+        width: 25rem;
+    }
+}

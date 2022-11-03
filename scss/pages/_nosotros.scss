@@ -1,8 +1,6 @@
 
 .nosotros {
 	margin-top: 4rem;
-	/*display: grid;
-	grid-template-columns: repeat(12, 1fr);*/
     display: flex;
     flex-direction: column;
 	gap: 3rem;
@@ -23,24 +21,6 @@
         grid-column: 1 / 13;
         grid-row: 3 / 4;
     }
-
-    /*.galery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5rem;
-        justify-content: center;
-    }
-    
-    /*.equipo{
-        margin-top: 5rem;
-
-        .nosotros__eq{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 4rem;
-            margin-top: 10rem;
-            margin-bottom: 12rem;
-        }*/
 
     .nosotros__intg {
         display: flex;

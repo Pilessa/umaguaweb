@@ -172,7 +172,7 @@ p {
         position: absolute;
         top: 8px;
         margin-top: 2rem;
-        left: 124rem; }
+        width: 18rem; }
     .header .nav__grupo a:hover {
       color: #FFB259; }
     .header .nav .nav__menu {
@@ -256,16 +256,7 @@ p {
     height: 360px; }
   /* PRODUCTOS */
   .productos {
-    background-color: tomato; }
-  /* .producto__img {
-        position: absolute;
-        top: 10%;
-        left: 11%;
-        margin: -25px 0 0 -25px;
-        width: 60%;
-        height: 60%;
-        /*border-radius: 2rem;
-    }*/ }
+    background-color: tomato; } }
 
 /* --- MQ 320 ---*/
 @media screen and (max-width: 320px) {
@@ -408,28 +399,9 @@ p {
 
 .nosotros {
   margin-top: 4rem;
-  /*display: grid;
-	grid-template-columns: repeat(12, 1fr);*/
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-  /*.galery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 5rem;
-        justify-content: center;
-    }
-    
-    /*.equipo{
-        margin-top: 5rem;
-
-        .nosotros__eq{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 4rem;
-            margin-top: 10rem;
-            margin-bottom: 12rem;
-        }*/ }
+  gap: 3rem; }
   .nosotros .nosotros__tv {
     display: flex;
     flex-direction: column;
@@ -505,6 +477,29 @@ p {
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-align: center; }
+
+/*POMADAS*/
+.galeria-producto {
+  width: 70rem;
+  margin: 0 auto;
+  display: flex;
+  gap: 5rem;
+  margin-top: 5rem;
+  align-items: center; }
+  .galeria-producto .compra__img {
+    border-radius: 2rem;
+    border: 1rem solid #FFB259;
+    width: 80%;
+    height: 80%; }
+  .galeria-producto .producto__compra {
+    height: 100%; }
+  .galeria-producto .compra__info {
+    margin-bottom: 2rem; }
+
+@media (max-width: 320px) {
+  .galeria-producto {
+    flex-direction: column;
+    width: 25rem; } }
 
 .salud {
   margin-top: 4rem; }
