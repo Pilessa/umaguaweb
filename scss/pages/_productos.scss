@@ -48,6 +48,12 @@
         flex-direction: column;
         width: 70%;
     }
+    @media (max-width: 320px){
+        .producto__txt{
+        text-align: center;
+        }
+    }
+
     .producto__nombre {
         font-weight: 700;
         margin-bottom: 1.5rem;

@@ -159,6 +159,9 @@ p {
   align-items: center; }
   .header .logo__home {
     scale: 80%; }
+  @media screen and (max-width: 320px) {
+    .header .logo__home {
+      margin-top: 2rem; } }
   .header .nav {
     width: 100%;
     margin-top: 3rem; }
@@ -169,10 +172,9 @@ p {
       justify-content: space-evenly; }
       .header .nav__grupo .contenedor__icon {
         display: flex;
-        position: absolute;
-        top: 8px;
         margin-top: 2rem;
-        width: 18rem; }
+        width: 18rem;
+        justify-content: space-evenly; }
     .header .nav__grupo a:hover {
       color: #FFB259; }
     .header .nav .nav__menu {
@@ -231,7 +233,9 @@ p {
     font-size: 1.4em;
     margin-top: 1rem; }
   .contenedor__icon {
-    left: 64rem !important; }
+    left: 58rem !important;
+    position: absolute;
+    top: 8px; }
   .icon {
     width: 25px;
     height: 25px; }
@@ -273,13 +277,13 @@ p {
     flex-direction: column;
     padding: .5rem; }
   .contenedor__icon {
-    left: 21rem !important;
+    left: 7rem !important;
     top: 1rem !important; }
   .nav__grupo {
     margin-top: 0;
     flex-direction: column; }
   .logo {
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: auto; }
   .logo__home {
     width: 100%; }
@@ -473,6 +477,9 @@ p {
     display: flex;
     flex-direction: column;
     width: 70%; }
+  @media (max-width: 320px) {
+    .producto .producto__txt {
+      text-align: center; } }
   .producto .producto__nombre {
     font-weight: 700;
     margin-bottom: 1.5rem;
